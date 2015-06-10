@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_title_cat">
+
+        <ListPreference
+            android:title="@string/pref_speed_unit"
+            android:summary="@string/pref_speed_unit_sum"
+            android:key="speedUnit"
+            android:defaultValue="@integer/default_value"
+            android:entries="@array/speed_unit_array"
+            android:entryValues="@array/speed_unit_values_array">
+        </ListPreference>
+
+        <ListPreference
+            android:title="@string/pref_distance_unit"
+            android:summary="@string/pref_distance_unit_sum"
+            android:key="distanceUnit"
+            android:defaultValue="@integer/default_value"
+            android:entries="@array/distance_unit_array"
+            android:entryValues="@array/distance_unit_values_array">
+        </ListPreference>
+
+        <CheckBoxPreference
+            android:title="@string/pref_night_mode"
+            android:key="nightmode"
+            android:defaultValue="false">
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

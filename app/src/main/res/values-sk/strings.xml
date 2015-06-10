@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Cyklo pocitac</string>
+
+    <string name="hello_world">Ahoj svet!</string>
+    <string name="action_settings">Nastavenia</string>
+    <string name="action_drive_list">Jazdy</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="speed_string">0.0</string>
+    <string name="distance_string">0.00</string>
+    <string name="accuracy_string">nedostupne</string>
+    <string name="time_string">00:00:00</string>
+    <string name="total_time_string">Celkovy cas</string>
+    <string name="avg_speed_string">Priem rych:</string>
+    <string name="max_speed_string">Max rych:</string>
+    <string name="total_distance_string">Celkova vzdial</string>
+    <string name="distance_text_string">Vzdialenost:</string>
+    <string name="time_text_string">Cas jazdy:</string>
+
+    <array name="drawer_array">
+        <item>Pocitac</item>
+        <item>Zoznam jazd</item>
+        <item>Nastavenia</item>
+    </array>
+
+    <string name="pref_title_cat">Nastavenia</string>
+    <string name="pref_speed_unit">Nastav jednotku rychlosti</string>
+    <string name="pref_speed_unit_sum">Vyber jednotku rychlosti</string>
+    <string-array name="speed_unit_array">
+        <item>m/s</item>
+        <item>km/h</item>
+        <item>mile/h</item>
+    </string-array>
+    <string-array name="speed_unit_values_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="pref_distance_unit">Nastav jednotku vzdialenosti</string>
+    <string name="pref_distance_unit_sum">Vyber jednotku vzdialenosti</string>
+    <string-array name="distance_unit_array">
+        <item>kilometre</item>
+        <item>mile</item>
+    </string-array>
+    <string-array name="distance_unit_values_array">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <integer name="default_value">1</integer>
+    <string name="pref_night_mode">Nocny mod</string>
+    <string name="title_activity_setings">Nastavenia</string>
+    <string name="title_activity_drive_list">Jazdy</string>
+    <string name="title_activity_drive_detail">Detail jazdy</string>
+    <string name="action_graph">Graf</string>
+</resources>

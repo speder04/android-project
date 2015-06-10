@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="DayTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="NightTheme" parent="Theme.AppCompat">
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@color/color_black</item>
+        <item name="android:listViewStyle">@style/ListView</item>
+    </style>
+
+    <style name="ListView">
+        <item name="android:background">@color/color_gray</item>
+    </style>
+
+</resources>
